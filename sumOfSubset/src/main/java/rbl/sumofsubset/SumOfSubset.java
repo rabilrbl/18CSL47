@@ -69,9 +69,12 @@ public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of set: ");
         int n = sc.nextInt();
+        
        int set[] = new int[n];
+       
        System.out.println("Enter set elements: ");
        Arrays.setAll(set, i -> sc.nextInt());
+       
        System.out.println("Enter sum to find");
        int sum = sc.nextInt();
        
