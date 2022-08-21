@@ -24,7 +24,7 @@ public class SumOfSubset {
   SumOfSubset(int set[], int sum){
       this.set = set;
       this.sum = sum;
-      this.solutionSet = new Stack<>();
+      this.solutionSet = new Stack();
       hasSolution = false;
   }
   
