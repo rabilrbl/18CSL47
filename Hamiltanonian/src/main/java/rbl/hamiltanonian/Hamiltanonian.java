@@ -149,7 +149,6 @@ class Hamiltanonian {
         }
         
         Hamiltanonian ham = new Hamiltanonian();
-        System.out.println("Solutions are,");
         ham.hamCycle(graph);
     }
 }
